@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container-header{
+    max-width: 1335px;
+    margin: 0 auto;
+}
+
+.header-container-1{
+    width: 100%;
+    display: flex;
+}
+
+.header-section-1{
+    height: 80px;
+    flex: 6;
+    border-right: 1px solid rgb(203, 203, 203);
+    display: flex;
+    align-items: center;
+}
+
+.icon-menu{
+    width: 32px;
+    height: 32px;
+    margin-left: 250px;
+}
+
+.header-section-2 {
+    height: 80px;
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-container-2{
+    width: 100%;
+    display: flex;
+}
+
+.header-section-3 {
+    height: 60px;
+    flex: 7.5;
+    background-color: rgb(248, 243, 243);
+    border: 1px solid rgb(233, 224, 224);
+}
+
+.header-section-4 {
+    height: 60px;
+    flex: 2.5;
+    background-color: rgb(233, 224, 224);
+    border: 1px solid rgb(233, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-section-4 > img{
+    width: 32px;
+    height: 32px;
+}
+
+.header-section-4 > p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(117, 117, 117);
+}
+
+.lang-section{
+    display: flex;
+}
+.lang-section > img{
+    width: 24px;
+    height: 24px;
+}
+
+.lang-section > p {
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.section-user{
+    display: flex;
+}
+
+.section-user > div{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.down-img{
+    width: 15px;
+    height: 15px;
+}
+
+.user-text{
+    color: rgb(104, 104, 104);
+}
+
+.header-section-3 > p{
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.header-bottom{
+    width: 100%;
+    display: flex;
+}
+
+.header-num{
+    flex: 2.5;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-num > div > p{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial,sans-serif;
+}
+
+.text-1{
+    color: #00ABA5;
+}
+
+.text-2{
+    color: #086299;
+}
+.header-num > div > div > span{
+    margin-left: 5px;
+    color: rgb(126, 127, 128);
+}
+
+.header-num>div>div{
+    display: flex;
+    justify-content: center;
+}
+
+.text-3{
+    color: #FFC66A;
+}
+
+.icon-header{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}

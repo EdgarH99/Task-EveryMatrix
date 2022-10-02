@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-section{
+    display: flex;
+    position: absolute;
+    z-index: 100;  
+}
+
+.btn-menu{
+    width: 20px;
+    height: 30px;
+    margin-top: 95px;
+}
+.navbar-section > ul {
+    width: 100px;
+    height: 700px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color:#171717 ;
+    align-items: center;
+    justify-content: center;
+    transition: 1ms;
+}
+
+.navbar-section>ul >li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    border-bottom: 1px solid rgb(56, 56, 56); 
+}
